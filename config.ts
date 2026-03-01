@@ -225,18 +225,18 @@ export const BATCHES: BatchConfig[] = [
 
         internalMarksSheets: {
 
-          IP1: {
-
-            "B.Sc CS": {
-              id: "PASTE_SEM2_IP1_CAS_INTERNAL_SHEET_ID",
-              name: "B.Sc CS"
-            },
-
-            "B.Sc IT": {
-              id: "PASTE_SEM2_IP1_IT_INTERNAL_SHEET_ID",
-              name: "B.Sc IT"
-            }
-
+    IP1: {
+      "B.Com": { id: "1XhBYO42-FJSP_qOTLd8SkupCJWgLnm7w937wbCqlcAw", name: "B.Com" },
+      "B.Com AF": { id: "1YUidLkfzRvhj-06GjU0yNIyYUewqNidXgzJnWgJz318", name: "B.Com AF" },
+      "B.Com BI": { id: "1LLLDJZ_B3zv3r8Xy2dXBS2AIfw6IRKVVgQqbWQXyEfg", name: "B.Com BI" },
+      "B.Com IB": { id: "1OF-CQKLrWOqMWxqZ1qTnKlyNfAe04Bthm2WqQ87ho5Y", name: "B.Com IB" },
+      "B.Com BPS": { id: "1VnxpgP5kElXYpGpB4u7M6SB_-aVTEUfSVcTY5WdHCdI", name: "B.Com BPS" },
+      "B.Com CA": { id: "1xz1XGeZZhZvKtoBR2bcU0_f23vsbbTzr2vDT8mfDQyU", name: "B.Com CA" },
+      "B.Com CS": { id: "1dC9c7IVegnTvXt6xsi4E-qlXeOoBraYjkAfGk6L3ioU", name: "B.Com CS" },
+      "B.Com FS": { id: "1EveKZ9yrOgkWzldZ2-3xIKMGJTNph1IINurJ17gKQQg", name: "B.Com FS" },
+      "B.Com IT": { id: "1YHYQa1yQ8ylK_BcBByxDXsmZLJy02Rt9NV32EOjj9PU", name: "B.Com IT" },
+      "B.Com ACCA": { id: "1r1rHK4hzubAb5DtDwsYABHdpdRxjyhLpP-nQ1zdoFhc", name: "B.Com ACCA" },
+      "B.Com PA": { id: "1aWWjcEboT5CsoWVtkCp3IvwsOHlNQS1xrWM-ZdEY9Lg", name: "B.Com PA" }
           },
 
 
@@ -267,15 +267,104 @@ export const BATCHES: BatchConfig[] = [
 
           departments: {
 
-            "B.Sc CS": [
-              { code: "25BCS2CA", type: "Theory", maxMarks: 15 },
-              { code: "25BCS2CP", type: "Lab", maxMarks: 15 }
-            ],
+"B.Com CA": [
+  { code: "25BCC2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BCC2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BCC2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BCC2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCC21T", type: "Theory", maxMarks: 15 },
+  { code: "25BCC22E", type: "Theory", maxMarks: 15 },
+],
 
-            "B.Sc IT": [
-              { code: "25BIT2CA", type: "Theory", maxMarks: 15 },
-              { code: "25BIT2CP", type: "Lab", maxMarks: 15 }
-            ]
+"B.Com BPS": [
+  { code: "25BPS2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BPS2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BPS2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BPS2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCC21T", type: "Theory", maxMarks: 15 },
+  { code: "25BCC22E", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com": [
+  { code: "25BCM2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BCM2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BCM2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BCM2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCM21T", type: "Theory", maxMarks: 15 },
+  { code: "25BCM22E", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com ACCA": [
+  { code: "25BAC2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BAC2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BAC2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BAC2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCM22E", type: "Theory", maxMarks: 15 },
+  { code: "25BCM21T", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com PA": [
+  { code: "25BPA2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BPA2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BPA2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BPA2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCM21T", type: "Theory", maxMarks: 15 },
+  { code: "25BCM22E", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com AF": [
+  { code: "25BAF2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BAF2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BAF2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BAF2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCC21T", type: "Theory", maxMarks: 15 },
+  { code: "25BCC22E", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com BI": [
+  { code: "25BBI2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BBI2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BBI2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BBI2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCC21T", type: "Theory", maxMarks: 15 },
+  { code: "25BCC22E", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com CS": [
+  { code: "25BCP2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BCP2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BCP2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BCP2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCC21T", type: "Theory", maxMarks: 15 },
+  { code: "25BCC22E", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com IB": [
+  { code: "25BIB2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BIB2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BIB2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BIB2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BCC21T", type: "Theory", maxMarks: 15 },
+  { code: "25BCC22E", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com IT": [
+  { code: "25BSI2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BSI2CP", type: "Theory", maxMarks: 15 },
+  { code: "25BSI2EA", type: "Theory", maxMarks: 15 },
+  { code: "25BSI2FB", type: "Theory", maxMarks: 15 },
+  { code: "25BSI21T", type: "Theory", maxMarks: 15 },
+  { code: "25BSI22E", type: "Theory", maxMarks: 15 },
+],
+
+"B.Com FS": [
+  { code: "25BFS2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BFS2CB", type: "Theory", maxMarks: 15 },
+  { code: "25BFS2AA", type: "Theory", maxMarks: 15 },
+  { code: "25BFS2CA", type: "Theory", maxMarks: 15 },
+  { code: "25BSF22E", type: "Theory", maxMarks: 15 },
+  { code: "25BSF21T", type: "Theory", maxMarks: 15 },
+]
 
           }
 
